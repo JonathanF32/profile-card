@@ -684,6 +684,23 @@ form > h1, p{
 .redes_wrap{
   justify-content: center;
 }
+
+}
+@media (max-width: 596px){
+  .ocultar{
+    visibility: hidden;
+    
+  }
+  #logo_unset{
+    position: relative;
+    left: 80px;
+    width: 100%;
+  }
+  .contacto_unset{
+    position: relative;
+    left: -150px;
+  }
+
 }
   
 
