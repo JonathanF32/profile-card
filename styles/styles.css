@@ -698,10 +698,19 @@ form > h1, p{
     visibility: hidden;
     
   }
+  .formaciones{
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+    
+    
+  }
+  
+
   #logo_unset{
     position: relative;
     left: 80px;
-    width: 100%;
+    
   }
   .contacto_unset{
     position: relative;
