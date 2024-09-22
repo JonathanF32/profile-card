@@ -10,6 +10,7 @@
 
 body{    
     margin: 0;
+    padding: 0;
     color: black;
     box-sizing: border-box;             
     background: url(/img/fondo3.jpg);
@@ -22,6 +23,7 @@ body{
     font-size: 16px;
     width: 100%;
     overflow-x: hidden;
+   
     
   }
 /* HEADER */
@@ -706,7 +708,9 @@ form > h1, p{
     
   }
   
-
+header{
+  width: 100%;
+}
   #logo_unset{
     position: relative;
     left: 80px;
@@ -716,7 +720,9 @@ form > h1, p{
     position: relative;
     left: -150px;
   }
-
+  .nav_bar{
+    gap: 0;
+  }
 }
   
 
