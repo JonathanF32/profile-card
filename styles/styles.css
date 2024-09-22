@@ -686,6 +686,13 @@ form > h1, p{
 }
 
 }
+
+@media (max-width: 703px){
+  .sobre_mi_imagen{
+    width: 450px;
+    height: 300px;
+  }
+}
 @media (max-width: 596px){
   .ocultar{
     visibility: hidden;
