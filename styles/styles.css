@@ -34,17 +34,20 @@ body{
     color: white;     
     background: linear-gradient(black, rgb(54, 53, 53));
     border-bottom: 1px solid #3b3b4f;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
           
   }
 
   .logo{
     font-family: "Rubik Vinyl", system-ui;
     font-size: 1.5rem;
-    position: relative;
-    right: 130px;
-    bottom: 5px;    
+    
   }
-
+nav{
+  width: 100%;
+}
   #logo_unset{
     
     background-color: transparent;
@@ -62,6 +65,7 @@ body{
   }
   .nav_bar{    
     display: flex;
+    flex-wrap: wrap;
     font-family: "Kiwi Maru", serif;
     flex-direction: row;
     justify-content:center; 
@@ -319,8 +323,7 @@ h5{
   height: auto;
   display: flex;
   flex-direction: row; 
-  justify-content: space-around;
-  
+  justify-content: space-around;  
 
   
 }
@@ -470,49 +473,17 @@ button:hover{
 
 }
 
-.Copyright p{
+.copyright p{
     text-align: center;
     position: relative;     
     color: rgb(207, 190, 190);
-    font-family: "Satisfy", cursive;  
+    font-family: "Podkova", serif; 
     font-size: 1rem;
     cursor: pointer;
     transition: 0.1s;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
   
 form {
   width: 60vw;
@@ -612,26 +583,19 @@ form > h1, p{
       display: flex;
       flex-direction: center;
     }
-}@media (max-width: 964px){
+}@media (max-width: 970px){
   .nav_bar{
     
-    width: 50%;
-    justify-content: space-around;
-    
-    
+    justify-content: space-between;
   }
   header{
     height: 100px;
   }
-  
-}
   .sobre_mi{
     display: flex;
     flex-direction: column; 
     align-items: center;
     text-align: center;
-
-
   }
   .parrafo_responsivo{  
    
@@ -647,14 +611,13 @@ form > h1, p{
     align-items: center;
     
     }
+  }  
   
-  
-
-
 @media (max-width: 773px){
   .nav_bar{
-    gap: 10px;
-    justify-content: left;
+    gap: 15px;
+    
+    
   }
   
   #footer{
@@ -689,17 +652,21 @@ form > h1, p{
 
 }
 
-@media (max-width: 703px){
+@media (max-width: 720px){
+  
   .sobre_mi_imagen{
     width: 450px;
     height: 300px;
   }
+  .parrafo_responsivo{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+  }
 }
 @media (max-width: 596px){
-  .ocultar{
-    visibility: hidden;
-    
-  }
+  
   .formaciones{
     display: flex;
     flex-direction: column;    
@@ -708,22 +675,27 @@ form > h1, p{
     
   }
   
-header{
-  width: 100%;
+.unir{
+  overflow-x: hidden;
+}    
+.nav_bar{    
+  text-align: center;
+  align-items: center;
 }
-  #logo_unset{
-    position: relative;
-    left: 80px;
-    
-  }
-  .contacto_unset{
-    position: relative;
-    left: -150px;
-  }
-  .nav_bar{
-    gap: 0;
-  }
+.sobre_mi_imagen{
+  width: 99%;
+  height: auto;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
 }
+.sobre_mi_parrafo{
+  width: auto;
+}
+}
+
+
+
   
 
   
